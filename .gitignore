@@ -1,0 +1,14 @@
+# 本地 secrets（勿提交）
+.dev.vars
+
+# 构建产物与依赖
+node_modules/
+dist/
+.wrangler/
+*.tsbuildinfo
+vite.config.js
+vite.config.d.ts
+.DS_Store
+
+# 3D 模型设计源文件（运行时使用 public/models/iphone-17-pro.glb）
+iphone-17-pro/
